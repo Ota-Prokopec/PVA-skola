@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"importHelpers": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"paths": {
+			"$lib/*": [
+				"./src/lib/*"
+			],
+			"$root/*": [
+				"./*"
+			],
+			"$src/*": [
+				"./src/*"
+			],
+			"$routes/*": [
+				"./src/routes/*"
+			],
+		},
+	}
+}
