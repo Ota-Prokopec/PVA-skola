@@ -24,7 +24,7 @@
 	})
 </script>
 
-<div>
+<div class="absolute w-[100vw] h-[100vh]">
 	<!-- you can display loading while app is not ready (waiting for user and i18n) -->
 	{#if isReady}
 		<Routes />

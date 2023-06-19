@@ -15,5 +15,29 @@
 			path: '/',
 			component: () => import('$routes/index.svelte'),
 		},
+		{
+			path: '/user/create',
+			component: () => import('$routes/createUser.svelte'),
+		},
+		{
+			path: '/user/get',
+			component: () => import('$root/src/routes/getUser.svelte'),
+		},
+		{
+			path: '/user/update/:userId',
+			component: () => import('$root/src/routes/updateUser.svelte'),
+		},
+		{
+			path: '/group/create',
+			component: () => import('$root/src/routes/createGroup.svelte'),
+		},
+		{
+			path: '/group/get',
+			component: () => import('$root/src/routes/getGroups.svelte'),
+		},
+		{
+			path: '/group/users/:groupId',
+			component: () => import('$root/src/routes/usersInGroup.svelte'),
+		},
 	]}
 />
